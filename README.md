@@ -1,1 +1,5 @@
 # autoscaler-server
+
+Dependencies:
+
+Fog
