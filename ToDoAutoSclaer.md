@@ -1,16 +1,31 @@
 **Project Name:** CloudAutoScaler
 
+
+
+```
+Deadline: 26 Feb 2016
+Nishant - Library/Gem to fetch metrics [Ongoing-Pending]
+Avinash - Auto Clone from config file [Done]
+````
+
+```
+Next Dealine's To Do: 28 Feb 2016
+Nishant - Library/Gem to fetch metrics 
+Avinash - Ping repo for new code
+```
+
+
 ## To DO List
 ### Server
-- Repository configuration
-- Clone repo
+- Repository configuration [Done: Avinash]
+- Clone repo [Done: Avinash]
 - Ping for new code from the repository
 - Deploy/Destroy new instance thru API
 - Run agent in the deployed instance
 - daemon that will decide when to scale up and scal down
 
 **Servers:**
-1. Cloning New Repos
+1. Cloning New Repos [Done: Avinash]
 2. Ping for new code
 3. Decision making daemon
 
@@ -18,9 +33,3 @@
 - Library to fetch metrics
 - send those metrics back to the server
 - execute commands such as safely shutdown the server
-
-```
-Deadline: 21 Feb 2016
-Nishant - Library to fetch metrics & tests
-Avinash - Deploy API
-````
