@@ -33,3 +33,7 @@ Avinash - Ping repo for new code
 - Library to fetch metrics
 - send those metrics back to the server
 - execute commands such as safely shutdown the server
+
+
+### Working of the Supervisor model.
+Ruby by default doesn't support the supervisor model. But it is critical to implement this model
