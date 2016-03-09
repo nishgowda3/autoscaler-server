@@ -3,16 +3,23 @@
 
 
 ```
+Next Dealine's To Do: 11 March 2016
+Nishant - Send Agent Metrics to Server
+Avinash - Compare local hash to remote hash & pull new code
+```
+
+```
+Dealine: 28 Feb 2016
+Nishant - Library/Gem to fetch metrics [Done] 
+Avinash - Ping repo for new code [Done]
+```
+
+```
 Deadline: 26 Feb 2016
 Nishant - Library/Gem to fetch metrics [Ongoing-Pending]
 Avinash - Auto Clone from config file [Done]
 ````
 
-```
-Next Dealine's To Do: 28 Feb 2016
-Nishant - Library/Gem to fetch metrics 
-Avinash - Ping repo for new code
-```
 
 
 ## To DO List
