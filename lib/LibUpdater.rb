@@ -1,3 +1,4 @@
+require_relative "LibGit"
 
 class LibUpdater
 
@@ -29,9 +30,31 @@ class LibUpdater
 	end
 
 
+	def getOutdatedRepos(repos)
+
+		repos.each{
+
+			|repo|
+
+
+			localHash =	LibGit.getLocalHash(repo,"release")
+			remoteHash = LibGit.getRemoteHash(repo,"release")
+
+			if localHash != remoteHash
+				LibGit.pullChanges(repo,"release")
+			end
+
+
+		}
+
+
+
+	end
+
 	def updateRepos()
 
-		return listRepos()
+		repos=  listRepos()
+		getOutdatedRepos(repos)
 	end
 
 end
