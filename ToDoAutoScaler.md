@@ -4,8 +4,8 @@
 
 ```
 Next Dealine's To Do: 11 March 2016
-Nishant - Send Agent Metrics to Server
-Avinash - Compare local hash to remote hash & pull new code
+Nishant - Send Agent Metrics to Server [Pendind]
+Avinash - Compare local hash to remote hash & pull new code [Done]
 ```
 
 ```
