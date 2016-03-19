@@ -1,5 +1,5 @@
 
-Ruby doesn't have good support for message passing between processes. One option is to make use of client-server setup by using sockets which is too much for simple message passing and other would be to use a message passign server like ZeroMQ.
+Ruby doesn't have good support for message passing between processes. One option is to make use of client-server setup by using sockets which is too much for simple message passing and other would be to use a message passing server like ZeroMQ.
 
 
 We decided to make FIPC to allow simpler form of IPC between 2 or more ruby processes.
