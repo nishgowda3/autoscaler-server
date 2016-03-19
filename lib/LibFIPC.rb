@@ -10,13 +10,13 @@ class FIPC
 
 
 
-	def self.send(channel,msg)
+	def self.sendMsg(channel,msg)
 
 		self.push(channel,msg)
 
 	end
 
-	def self.receive(channel)
+	def self.receiveMsg(channel)
 
 		self.pop(channel)
 
@@ -76,9 +76,7 @@ class FIPC
 
 			file << [ptr].pack("Q!")
 
-		
-			p ptr 
-			p file.size
+
 			if ptr == file.size
 				file.close
 				self.reset(channel)

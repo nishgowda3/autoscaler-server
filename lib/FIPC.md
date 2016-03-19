@@ -14,12 +14,12 @@ The base pointer points to the first data element. base pointer is updated as th
 **FIPC Example:**
 ```ruby
 #Program 1
-FIPC.send("channels/1","hello_1")
+FIPC.sendMsg("channels/1","hello_1")
 ```
 
 ```ruby
 #Progam 2
-ret = FIPC.receive("channels/1")
+ret = FIPC.receiveMsg("channels/1")
 p ret #output: "hello_1"
 ```
 
@@ -47,8 +47,8 @@ FRPC enables one to call functions defined in one process by another process.
     end
     
     #You may exec the following in a loop
-    FRPC.run(FIPC.receive("channel0"))
-    FRPC.run(FIPC.receive("channel0"))
+    FRPC.run(FIPC.receiveMsg("channel0"))
+    FRPC.run(FIPC.receiveMsg("channel0"))
 ```
 
 **Output (Program 2):**
