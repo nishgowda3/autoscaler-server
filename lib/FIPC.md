@@ -1,0 +1,54 @@
+
+FIPC is used for asynchronous exchange of messages between processes. 
+At the heart of FIPC are channels. channels are basically structured files. The file structure is as follows
+
+![file format](https://github.com/evnix/autoscaler-server/blob/master/lib/diagrams/FIPC.jpeg?raw=true)
+
+The base pointer points to the first data element. base pointer is updated as the messages are consumed.
+
+**FIPC Example:**
+```ruby
+#Program 1
+FIPC.send("channels/1","hello_1")
+```
+
+```ruby
+#Progam 2
+ret = FIPC.receive("channels/1")
+p ret #output: "hello_1"
+```
+
+FRPC is built on FIPC (File based Interprocess communication).
+
+# FRPC
+FRPC stands for File based Remote Procedure Call.
+FRPC enables one to call functions defined in one process by another process.
+
+**Example code:**
+```ruby
+    #Program 1
+    FRPC.exec("channel0","say_hello")
+    FRPC.exec("channel0","say_my_name","Tom")
+```
+
+```ruby
+    #program 2
+    def say_hello()
+        p "Hello"
+    end
+    
+    def say_my_name(name)
+        p "Your name is "+name
+    end
+    
+    #You may exec the following in a loop
+    FRPC.run(FIPC.receive("channel0"))
+    FRPC.run(FIPC.receive("channel0"))
+```
+
+**Output (Program 2):**
+```
+"Hello"
+"Your name is Tom"
+```
+
