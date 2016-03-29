@@ -1,15 +1,20 @@
 **Project Name:** CloudAutoScaler
 
 
-
 ```
-Next Dealine's To Do: 25 March 2016
+Dealine: 1 April 2016
 Nishant - Send Agent Metrics to Server [Pending!!]
-Avinash - Build a supervisor
+Avinash - Run basic deployment APIs [Done]
 ```
 
 ```
-Next Dealine's To Do: 18 March 2016
+Dealine: 25 March 2016
+Nishant - Send Agent Metrics to Server [Pending!!]
+Avinash - Build a supervisor [Done]
+```
+
+```
+Dealine: 18 March 2016
 Nishant - Send Agent Metrics to Server [Pending]
 Avinash - Gem for RPC/IPC between two ruby processes [Done]
 ```
