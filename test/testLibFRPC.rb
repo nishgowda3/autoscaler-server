@@ -27,7 +27,8 @@ class TestLibConfig < Test::Unit::TestCase
 
 	def test_run()
 
-		FRPC.run(FRPC.receiveMsg("channels/0"))
+		ret = FRPC.run(FRPC.receiveMsg("channels/0"))
+		assert_equal(true,ret)
 
 	end
 
