@@ -3,25 +3,25 @@
 
 ```
 Dealine: 1 April 2016
-Nishant - Send Agent Metrics to Server [Pending!!]
+Nishant - Send Agent Metrics to Server [DOne!!]
 Avinash - Run basic deployment APIs [Done]
 ```
 
 ```
 Dealine: 25 March 2016
-Nishant - Send Agent Metrics to Server [Pending!!]
+Nishant - Send Agent Metrics to Server [Done!!]
 Avinash - Build a supervisor [Done]
 ```
 
 ```
 Dealine: 18 March 2016
-Nishant - Send Agent Metrics to Server [Pending]
+Nishant - Send Agent Metrics to Server [Done]
 Avinash - Gem for RPC/IPC between two ruby processes [Done]
 ```
 
 ```
 Dealine: 11 March 2016
-Nishant - Send Agent Metrics to Server [Pending]
+Nishant - Send Agent Metrics to Server [Done]
 Avinash - Compare local hash to remote hash & pull new code [Done]
 ```
 
@@ -33,7 +33,7 @@ Avinash - Ping repo for new code [Done]
 
 ```
 Deadline: 26 Feb 2016
-Nishant - program to fetch metrics [Ongoing-Pending]
+Nishant - program to fetch metrics [Done]
 Avinash - Auto Clone from config file [Done]
 ````
 
